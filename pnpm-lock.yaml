@@ -1,0 +1,34 @@
+devDependencies:
+  static-type-assert: 3.0.1_typescript@3.9.2
+  typescript: 3.9.2
+lockfileVersion: 5.1
+packages:
+  /static-type-assert/3.0.1_typescript@3.9.2:
+    dependencies:
+      typescript: 3.9.2
+      typescript-compare: 0.0.2
+    dev: true
+    peerDependencies:
+      typescript: ^3.0.3
+    resolution:
+      integrity: sha512-zMKAbDEqRbysJdAmO6fcylkbTa1GQ285xZZvTxbjxNficxF+zVdkwsozJqbVntKds0oZ40kLFkPYTi2JO3zOBA==
+  /typescript-compare/0.0.2:
+    dependencies:
+      typescript-logic: 0.0.0
+    dev: true
+    resolution:
+      integrity: sha512-8ja4j7pMHkfLJQO2/8tut7ub+J3Lw2S3061eJLFQcvs3tsmJKp8KG5NtpLn7KcY2w08edF74BSVN7qJS0U6oHA==
+  /typescript-logic/0.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-zXFars5LUkI3zP492ls0VskH3TtdeHCqu0i7/duGt60i5IGPIpAHE/DWo5FqJ6EjQ15YKXrt+AETjv60Dat34Q==
+  /typescript/3.9.2:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-q2ktq4n/uLuNNShyayit+DTobV2ApPEo/6so68JaD5ojvc/6GClBipedB9zNWYxRSAlZXAe405Rlijzl6qDiSw==
+specifiers:
+  static-type-assert: ^3.0.1
+  typescript: ~3.9.2
