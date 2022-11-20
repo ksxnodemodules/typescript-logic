@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/ksxnodemodules/typescript-logic#readme",
   "devDependencies": {
-    "typescript": "~4.0.0",
+    "typescript": "~4.9.0",
     "static-type-assert": "^3.0.1"
   }
 }
